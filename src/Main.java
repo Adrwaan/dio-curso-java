@@ -19,6 +19,6 @@ public class Main {
 
         Conta usuario = new Conta(numero, agencia, nome, saldo);
 
-        System.out.printf("%n%nOlá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo de R$ %.2f já está disponível para saque!", usuario.Nome, usuario.Agencia, usuario.Numero, usuario.Saldo);
+        usuario.ImprimirDados();
     }
 }
